@@ -1,0 +1,13 @@
+# Ignore compiled binary
+binary_tree
+
+# Object files
+*.o
+
+# Editor directories and swap files
+.vscode/
+*.swp
+*~
+
+# macOS
+.DS_Store

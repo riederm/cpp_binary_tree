@@ -3,6 +3,15 @@
 
 // Node implementation is inside BinaryTree.h
 
+BinaryTree::Node::Node(Data *d) : data(d), left(nullptr), right(nullptr) {}
+
+BinaryTree::Node::~Node()
+{
+    delete left;
+    delete right;
+    delete data;
+}
+
 BinaryTree::BinaryTree() : root(nullptr) {}
 
 BinaryTree::~BinaryTree()

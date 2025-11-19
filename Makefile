@@ -3,7 +3,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic
 
-SRC = main.cpp
+SRC = BinaryTree.cpp main.cpp 
 HEADERS = Data.h BinaryTree.h
 TARGET = binary_tree
 
